@@ -6,10 +6,10 @@ require 'pry'
 
 
 def key_for_min_value(name_hash)
-    i = 0
+    min_key 
+    min_value
   name_hash.collect do |key, value|
-    puts name_hash[key]
-    i += 1
+    
     end
     nil
   end
